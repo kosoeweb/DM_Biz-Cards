@@ -60,7 +60,7 @@
         // Initialize Supabase
         const SUPABASE_URL = 'https://zdifzvpjmmmsfitjsraw.supabase.co/rest/v1/';
         const SUPABASE_ANON_KEY = 'sb_publishable_Eghy_AeArZhWU86ETOoWqg_FI8xXh9P';
-        const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         const cameraInput = document.getElementById('cameraInput');
         const loading = document.getElementById('loading');
